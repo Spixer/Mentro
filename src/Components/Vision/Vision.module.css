@@ -1,0 +1,34 @@
+.vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.text {
+  font-family: QuicksandBold;
+  font-size: 40px;
+}
+.separator1,
+.separator2 {
+  width: 90px;
+  height: 4px;
+  /* background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%); */
+  background-color: #91e1ef;
+
+  border-radius: 20px;
+  margin: 50px 0;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 30px;
+  list-style-type: none;
+  font-family: BeVietnam;
+}
+.items {
+  font-size: 32px;
+  margin-left: 100px;
+}
